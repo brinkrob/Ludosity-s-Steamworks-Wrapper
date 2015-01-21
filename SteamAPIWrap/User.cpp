@@ -282,7 +282,7 @@ ManagedSteam_API void User_RequestEncryptedAppTicket( PDataPointer dataToInclude
 	CUser::Instance().RequestEncryptedAppTicket( dataToInclude, cbDataToInclude );
 }
 
-ManagedSteam_API bool User_GetEncryptedTicket( PDataPointer ticket, s32 maxTicket, u32 *ticketLength )
+ManagedSteam_API bool User_GetEncryptedAppTicket( PDataPointer ticket, s32 maxTicket, u32 *ticketLength )
 {
 	return CUser::Instance().GetEncryptedAppTicket( ticket, maxTicket, ticketLength );
 }
