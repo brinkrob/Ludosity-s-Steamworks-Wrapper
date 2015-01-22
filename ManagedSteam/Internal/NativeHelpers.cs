@@ -12,9 +12,9 @@ namespace ManagedSteam
     static class NativeHelpers
     {
         //Windows
-        //public const int SteamStructPacking = 8;
+        public const int SteamStructPacking = 8;
         //Mac/Linux
-        public const int SteamStructPacking = 4;
+        //public const int SteamStructPacking = 4;
 
         public static LoadStatus Services_GetSteamLoadStatus()
         {
